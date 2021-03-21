@@ -14,4 +14,4 @@ CREATE TABLE IF NOT EXISTS tasks(
 );
 
 INSERT INTO projects(name, priority, description, deliverydate)
-VALUES ('primer opcion', 1, 'usando javascript', '2021-0512');
+VALUES ('primer opcion', 1, 'usando javascript', '2021-05-12');
