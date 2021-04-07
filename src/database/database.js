@@ -3,9 +3,9 @@ import Sequalize from 'sequelize'
 export const sequelize = new Sequalize(
     'tareas',
     'postgres',
-    'admin1234',
+    'admin1234$',
     {
-        host: 'database-1.c16vf7d4zq8q.us-east-2.rds.amazonaws.com',
+        host: 'database-task.czqa0uxxzm8z.us-east-2.rds.amazonaws.com',
         port: 5432,
         dialect: 'postgres',
         logging: false,
