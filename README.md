@@ -42,3 +42,7 @@ Para inicar el proyecto realizamos lo siguiente. Recordar que para poder utiliza
 ```sh
 $ npm run dev
 ```
+
+### Amazon WS
+
+La base de datos de este proyecto utiliza una postgresql en la nube de amazon. Es necesario que cree la bd en la nube y luego obtenga la url publica para realizar operaciones con ella.
