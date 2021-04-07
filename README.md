@@ -43,6 +43,14 @@ Para inicar el proyecto realizamos lo siguiente. Recordar que para poder utiliza
 $ npm run dev
 ```
 
-### Amazon WS
+### Amazon RDS
 
 La base de datos de este proyecto utiliza una postgresql en la nube de amazon. Es necesario que cree la bd en la nube y luego obtenga la url publica para realizar operaciones con ella.
+
+Entramos a la consola de Amazon
+
+- Creamos el usuario y su pass
+- Seleccionamos el tipo de base dato
+- Esperamos que termine la creacion de la BD
+- Para el grupo de seguridad usamos el que viene por defecto. Podemos crear uno particular para nuestro proyecto.
+- En el grupo de seguridad creamos una regla de entrada de tipo postgresql y que tenga como origen de cualquier lugar.
